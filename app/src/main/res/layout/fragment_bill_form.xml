@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.BillFormFragment"
+    android:padding="30dp"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bill_list_btn"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expense_form_description"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/billDescriptionField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/expense_form_description"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expense_form_value"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/billValueField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/expense_form_value"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expense_form_date"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/billDateField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/expense_form_date"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/billSaveBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expense_form_btn2" />
+
+    <Button
+        android:id="@+id/billCancelBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expense_form_btn1" />
+</LinearLayout>

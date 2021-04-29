@@ -1,0 +1,95 @@
+<resources>
+
+    <string name="app_name">Finance</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="open_drawer">Abrindo drawer</string>
+    <string name="close_drawer">Fechando drawer</string>
+
+    <string name="expense_form_header">Nova despesa</string>
+    <string name="expense_form_value">Valor</string>
+    <string name="expense_form_description">Descrição</string>
+    <string name="expense_form_date">Data</string>
+    <string name="expense_form_btn1">Cancelar</string>
+    <string name="expense_form_btn2">Salvar</string>
+    <string name="expense_form_consolidated">Consolidada</string>
+    <string name="exprense_form_category">Categoria</string>
+
+    <string name="actionbar_expenses_form">Adicionar nova despesa</string>
+    <string name="actionbar_earnings_form">Adicionar novo ganho</string>
+
+    <string name="main_fragment_header">Resumo do mês</string>
+    <string name="main_fragment_earnings">Ganhos</string>
+    <string name="main_fragment_expenses">Gastos</string>
+    <string name="main_fragment_economy">Economia</string>
+
+    <string name="earnings_form_header">Novo ganho</string>
+
+
+    <string name="coin">R$</string>
+
+    <string-array name="expense_category">
+        <item>Lazer</item>
+        <item>Conta de energia</item>
+        <item>Internet</item>
+        <item>Alimentação</item>
+        <item>Saúde</item>
+    </string-array>
+
+    <string-array name="earning_category">
+        <item>Salário</item>
+        <item>Investimento</item>
+        <item>Emprestimo</item>
+    </string-array>
+
+
+    <string name="drawer_menu_main">Principal</string>
+    <string name="drawer_menu_bank">Conta bancária</string>
+    <string name="drawer_menu_credit">Cartão de crédito</string>
+    <string name="drawer_menu_invoices">Contas</string>
+    <string name="drawer_menu_installments">Parcelamentos</string>
+    <string name="drawer_menu_resumes">Relatórios</string>
+    <string name="drawer_header_welcome">Boas vindas</string>
+
+    <string name="no_bank_text">Você ainda não cadastrou uma conta bancária no aplicativo.</string>
+    <string name="no_bank_btn">Cadastre agora!</string>
+
+
+    <string name="bank_form_header">Adicionar conta bancária</string>
+    <string name="bank_form_name">Banco</string>
+    <string name="bank_form_owner">Titular da conta</string>
+    <string name="bank_form_current_balance">Saldo atual</string>
+    <string name="bank_form_agency">Agência</string>
+
+    <string name="current_balance_header">Saldo bancário: </string>
+    <string name="bank_deposit">Deposito</string>
+    <string name="bank_withdraw">Saque</string>
+    <string name="dialog_confirm">Confirmar</string>
+
+    <string name="no_credit_card_description">Você ainda não cadastrou um cartão de crédito no aplicativo.</string>
+
+    <string name="form_credit_card_description">Novo cartão de crédito</string>
+    <string name="form_credit_card_flag">Bandeira</string>
+    <string name="form_credit_card_owner">Titular do cartão</string>
+    <string name="form_credit_card_limit">Limite</string>
+    <string name="cred_card_heade">Limite disponível</string>
+
+    <string name="credit_card_change_limit">Manipular limite</string>
+    <string name="credit_card_reset_limit">Resetar limite</string>
+
+    <string name="bill_list_header">Contas a pagar</string>
+    <string name="bill_list_btn">Adicionar nova conta</string>
+    <string name="bill_list_pay">Pagar</string>
+
+    <string name="installment_header">Parcelamentos</string>
+    <string name="installment_btn">Adicionar novo parcelamento</string>
+
+
+    <string name="installment_value">Valor da parcela</string>
+    <string name="installment_number">Número de parcelas</string>
+    <string name="sheet_header">Relatórios</string>
+
+</resources>

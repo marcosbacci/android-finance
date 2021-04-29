@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.InfoCreditCardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="example.com.finance.views.LimitCreditCardFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:layout="@layout/fragment_limit_credit_card" />
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="331dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment4">
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="@string/form_credit_card_flag"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/flagInfoTXT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="@string/form_credit_card_owner"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ownerInfoTXT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <Button
+            android:id="@+id/changeLimitBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_card_change_limit" />
+
+        <Button
+            android:id="@+id/resetLimitBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_card_reset_limit" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

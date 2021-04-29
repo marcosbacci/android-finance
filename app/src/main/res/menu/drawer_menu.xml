@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drawerMenuMain"
+        android:icon="@drawable/drawer_menu_main"
+        android:title="@string/drawer_menu_main" />
+    <item
+        android:id="@+id/drawerMenuBank"
+        android:icon="@drawable/drawer_menu_bank"
+        android:title="@string/drawer_menu_bank" />
+    <item
+        android:id="@+id/drawerMenuCredit"
+        android:icon="@drawable/drawer_menu_credit"
+        android:title="@string/drawer_menu_credit" />
+    <item
+        android:id="@+id/drawerMenuInvoices"
+        android:icon="@drawable/drawer_menu_invoices"
+        android:title="@string/drawer_menu_invoices" />
+    <item
+        android:id="@+id/drawerMenuInstallments"
+        android:icon="@drawable/drawer_menu_installments"
+        android:title="@string/drawer_menu_installments" />
+    <item
+        android:id="@+id/drawerMenuResumes"
+        android:icon="@drawable/drawer_menu_resumes"
+        android:title="@string/drawer_menu_resumes" />
+</menu>

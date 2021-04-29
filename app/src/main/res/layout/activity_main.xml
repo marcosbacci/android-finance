@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.finance.views.MainActivity">
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/background_light"
+        app:headerLayout="@layout/header"
+        app:itemBackground="@android:color/background_light"
+        app:itemTextColor="@android:color/background_dark"
+        app:menu="@menu/drawer_menu">
+
+    </android.support.design.widget.NavigationView>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mainToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"></android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabEarnings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:visibility="invisible"
+            app:backgroundTint="@android:color/holo_green_light"
+            app:layout_constraintBottom_toTopOf="@+id/fabExpenses"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.975"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.969"
+            app:srcCompat="@drawable/ic_attach_money_white_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabExpenses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:visibility="invisible"
+            app:backgroundTint="@android:color/holo_red_dark"
+            app:layout_constraintBottom_toTopOf="@+id/fabMain"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.975"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.981"
+            app:srcCompat="@drawable/ic_money_off_white_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabMain"
+            android:layout_width="71dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            app:backgroundTint="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.975"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.982"
+            app:srcCompat="@drawable/ic_add_white_24dp" />
+
+        <FrameLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainToolbar">
+
+        </FrameLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.DrawerLayout>

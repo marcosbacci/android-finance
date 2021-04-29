@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="35dp"
+    >
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/installment_btn"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/descriptionInstallmentDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/expense_form_description"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/valueInstallmentDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/installment_value"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/amountInstallmentDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/installment_number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/confirmInstallmentBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_confirm" />
+</LinearLayout>
